@@ -28,7 +28,7 @@ body {
 .flip-card {
     background-color: transparent;
     width: 75vw;
-    height: 60vh;
+    height: 75vh;
     perspective: 1000px;
     /* Enables 3D effect */
     cursor: pointer;
@@ -84,7 +84,7 @@ img {
 
 .btns {
     position: absolute;
-    bottom: 5px;
+    bottom: 10px;
     width: 80vw;
     text-align: center;
     height: fit-content;
