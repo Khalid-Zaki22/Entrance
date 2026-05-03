@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+*{
+    font-family: "Cairo", sans-serif;
+ 
+}
+
+button {
+    background-color: rgb(38, 133, 222);
+    color: white;
+    border-color: rgb(38, 133, 222);
+    height: 100px;
+    width: 30px;
+    font-size: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Card container */
+.flip-card {
+    background-color: transparent;
+    width: 75vw;
+    height: 70vh;
+    perspective: 1000px;
+    /* Enables 3D effect */
+    cursor: pointer;
+}
+
+img {
+    max-width: 80%;
+    max-height: 90%;
+}
+
+/* Inner wrapper for front and back */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+/* Flip effect when active */
+.flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Front and back faces */
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.flip-card-front {
+    background-color: orange;
+    color: white;
+    font-size: 14vw;
+}
+
+.flip-card-back {
+    background-color: #ffffff;
+    transform: rotateY(180deg);
+    
+}
+
+.btns {
+    position: absolute;
+    bottom: 30px;
+    width: 80vw;
+    text-align: center;
+    height: fit-content;
+
+}
+
+.voice{
+
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    border-color: black;
+}
+
+.trans{
+    position: absolute;
+    top: 0px;
+    left: 10%;
+    width: 80vw;
+    font-size: 40px;
+    text-align: center;
+  
+}
+
+.show-trans{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    border-color: black;
+}
