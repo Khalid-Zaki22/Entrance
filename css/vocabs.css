@@ -28,7 +28,7 @@ body {
 .flip-card {
     background-color: transparent;
     width: 75vw;
-    height: 63vh;
+    height: 60vh;
     perspective: 1000px;
     /* Enables 3D effect */
     cursor: pointer;
@@ -73,7 +73,7 @@ img {
 .flip-card-front {
     background-color: orange;
     color: white;
-    font-size: 12vw;
+    font-size: 13vw;
 }
 
 .flip-card-back {
