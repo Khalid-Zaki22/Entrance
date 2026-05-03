@@ -5,17 +5,24 @@ card.addEventListener('click', () => {
 });
 
 let words = [
-    "entrance","door", "key", "lock", "shoe rack", "coat hanger", "mat"
+    "entrance","door", "key", "lock", "shoe rack", "coat hanger", "mat",
+     "living room","sofa", "armchair", "coffee table", "tv", "remote control",
+    "carpet", "curtains", "lamp", "shelf", "fan","air conditioner"
 
 ];
 
 let imgs = [
-"entrance.webp","door.jpg", "key.webp", "lock.webp", "shoe rack.webp", "coat hanger.webp", "mat.webp"
+"entrance.webp","door.jpg", "key.webp", "lock.webp", "shoe rack.webp", "coat hanger.webp", "mat.webp",
+        "living room.webp","sofa.jpg", "armchair.jpg", "coffee table.webp", "tv.webp", "remote control.webp",
+    "carpet.webp", "curtains.jpg", "lamp.jpg", "shelf.webp", "fan.webp","air conditioner.jpg"
 
 ];
 
 let arWords = [
-    "مدخل المنزل","باب", "مفتاح", "قُفل الباب", "الجزامة", "علاقة الملابس", "سجادة صغيرة"
+       "مدخل المنزل","باب", "مفتاح", "قُفل الباب", "الجزامة", "علاقة الملابس", "سجادة صغيرة","غرفة المعيشة","الكنبة",
+    "كرسي بذراعين","طاولة صغيرة","تلفاز","ريموت","سجادة صغيرة","ستائر","مصباح","رف",
+    "مروحة","مكيف"
+
 
 ];
 
